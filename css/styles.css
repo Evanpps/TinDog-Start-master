@@ -27,7 +27,7 @@ h3 {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 3%;
 }
 
 p {
@@ -65,12 +65,20 @@ p {
 .title-img {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  left: 23%;
+}
+
+.title-wrapper {
+  position: relative;
 }
 
 /* Features section */
 
 #features {
 padding: 7% 15%;
+background-color: #fff;
+position: relative;
 }
 
 .f {
@@ -93,7 +101,7 @@ padding: 7% 15%;
   padding: 7% 15%;
   text-align: center;
   background-color: #dc143c;
-  color: #fff
+  color: #fff;
 }
 
 .testimonial-image {
@@ -118,10 +126,23 @@ margin: 20px 20px 50px;
 }
 
 .row {
-  margin: auto 20px
+  margin: auto 20px;
+  padding: 3% 2%;
 }
 
 .card-wrapper {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.card-body {
+  padding-bottom: 24px;
+}
+
+.price-content {
+  height: 200px;
+}
+
+.pricing-header {
+  text-align: center;
 }
