@@ -1,14 +1,14 @@
 body {
-  font-family: "Montserrat-Black", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 #title {
-  background-color: #dc143c;
+  background-color: #ff4c6b;
   color: #fff;
 }
 
 h1 {
-  font-family: "Montserrat-Black", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: bold;
@@ -92,7 +92,7 @@ position: relative;
 }
 
  .icon:hover {
-   color: #dc143c;
+   color: #ff4c6b;
  }
 
 /* testimonial */
@@ -100,7 +100,7 @@ position: relative;
 #testimonials {
   padding: 7% 15%;
   text-align: center;
-  background-color: #dc143c;
+  background-color: #ff4c6b;
   color: #fff;
 }
 
@@ -115,7 +115,7 @@ position: relative;
 }
 
 #press {
-  background-color: #dc143c;
+  background-color: #ff4c6b;
   text-align: center;
   padding-bottom: 3%;
 }
@@ -145,4 +145,41 @@ margin: 20px 20px 50px;
 
 .pricing-header {
   text-align: center;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+  position: static;
+  transform: rotate(0);
+  }
+}
+
+#cta {
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ff4c6b;
+  padding: 90px 90px;
+}
+
+.dog-love {
+  padding-bottom: 45px;
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #fff;
+}
+
+.social-icon {
+margin: 20px 10px;
 }
